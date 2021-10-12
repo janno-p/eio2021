@@ -8,8 +8,8 @@ piisavas koguses tüüpe — ladumiseks kasutatavaid tähtede ja märkide (ehk t
 abistamiseks on vaja koostada programm, mis teeb etteantud teksti kohta kindlaks, kui mitut
 eksemplari igast tärgist on vaja.
 
-**Sisend.** Sisendi esimesel real on järgnevate tekstiridade arv *N* (1 &le; *N* &le; 1 000). Iga
-järgnev tekstirida sisaldab kuni 100 tärki. Tekst võib koosneda ladina tähestiku suurtest ja
+**Sisend.** Sisendi esimesel real on järgnevate tekstiridade arv *N* (1 &le; *N* &le; 1&nbsp;000).
+Iga järgnev tekstirida sisaldab kuni 100 tärki. Tekst võib koosneda ladina tähestiku suurtest ja
 väikestest tähtedest, numbritest ja kirjavahemärkidest.
 
 **Väljund.** Väljastada sisendis esinevate tärkide histogramm. Igale reale väljastada tühikuga

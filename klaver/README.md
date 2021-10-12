@@ -4,9 +4,9 @@
 *30 punkti*
 
 MIDI (ingl *Musical Instrument Digital Interface*) on tehniline standard muusikateoste
-kirjeldamiseks, kus teose iga nooti esitab täisarv lõigust 0...1 023. Sul on 1 024 klahviga klaver,
-millega soovid esitada MIDI vormingus antud muusikapala. Klaveri vasakpoolseim klahv vastab MIDI
-süsteemi arvule 0, vasakult teine arvule 1 j.n.e.
+kirjeldamiseks, kus teose iga nooti esitab täisarv lõigust 0...1&nbsp;023. Sul on 1&nbsp;024
+klahviga klaver, millega soovid esitada MIDI vormingus antud muusikapala. Klaveri vasakpoolseim
+klahv vastab MIDI süsteemi arvule 0, vasakult teine arvule 1 j.n.e.
 
 Kahjuks on klaverit juba palju kasutatud ja seetõttu on mõned klahvid katki läinud. Sa oled
 klaveri olukorraga kursis ja tead täpselt, millised klahvid töötavad ja millised on katki. Võib
@@ -24,13 +24,13 @@ naaberklahvi. Nootide ühe pooltooni võrra alla transponeerimine tähendab, et 
 esialgse klahvi vasakut naaberklahvi. Kahe pooltooni võrra transponeerimine tähendab, et klaveril
 mängitakse klahvi, mis on esialgsest klahvist ülejärgmine j.n.e. Pane tähele, et kui transponeerida
 kõiki noote ühe pooltooni võrra üles, siis ei saa mängida nooti, mille MIDI kood algses muusikapalas
-on 1 023, sest sellele vastavat klahvi klaveril ei ole.
+on 1&nbsp;023, sest sellele vastavat klahvi klaveril ei ole.
 
-**Sisend.** Sisendi esimesel real on klaveri katkiste klahvide arv *N* (1 &le; *N* &le; 1 024).
-Teisel real on *N* paarikaupa erinevat täisarvu *A<sub>i</sub>* (0 &le; *A<sub>i</sub>* &le; 1 023):
-klaveri katkiste klahvide MIDI koodid. Kolmandal real on muusikateose nootide arv *M*
-(1 &le; *M* &le; 10<sup>6</sup>). Neljandal real on *M* täisarvu *B<sub>i</sub>*
-(0 &le; *B<sub>i</sub>* &le; 1 023): muusikateose nootide MIDI koodid.
+**Sisend.** Sisendi esimesel real on klaveri katkiste klahvide arv *N* (1 &le; *N* &le; 1&nbsp;024).
+Teisel real on *N* paarikaupa erinevat täisarvu *A<sub>i</sub>*
+(0 &le; *A<sub>i</sub>* &le; 1&nbsp;023): klaveri katkiste klahvide MIDI koodid. Kolmandal real on
+muusikateose nootide arv *M* (1 &le; *M* &le; 10<sup>6</sup>). Neljandal real on *M* täisarvu
+*B<sub>i</sub>* (0 &le; *B<sub>i</sub>* &le; 1&nbsp;023): muusikateose nootide MIDI koodid.
 
 **Väljund.** Väljastada täpselt kaks rida. Esimesele reale väljastada üks täisarv, mis näitab, mitut
 nooti teoses ei saa klaveril õige klahviga mängida. Teisele reale väljastada muusikapala klaveril
@@ -76,6 +76,6 @@ esitamiseks mängime vasakult teist klahvi.
 need lahendused, mis läbivad kõik sellesse gruppi kuuluvad testid. Gruppides kehtivad järgmised
 lisatingimused:
 
-1. (15 punkti) *M* &le; 1 000 ning kõiki teoseid on võimalik mängida ja neid ei ole selleks vaja
-transponeerida rohkem kui kahe pooltooni võrra.
+1. (15 punkti) *M* &le; 1&nbsp;000 ning kõiki teoseid on võimalik mängida ja neid ei ole selleks
+vaja transponeerida rohkem kui kahe pooltooni võrra.
 2. (15 punkti) Lisapiirangud puuduvad.
