@@ -96,6 +96,7 @@ fn sort_modules(v: &mut Vec<Coord>) {
             o => o,
         }
     });
+    v.dedup();
 }
 
 fn main() {
