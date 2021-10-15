@@ -3,4 +3,5 @@ members = [
     "hist",
     "klaver",
     "leke",
+    "vormel",
 ]
